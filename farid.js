@@ -930,7 +930,7 @@ https://instabio.cc/Faar-Z
 
 _*Note*_ : _If You Are Using WhatsApp Mod You Can Type ${prefix}command_
 `        
-farid.sendMessage(from, { contentText: `${menu}`, footerText: '© Pikaw-Bot', buttons: [{ buttonId: `!command`, buttonText: { displayText: 'LIST MENU' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: 'OWNER' }, type: 1 },{ buttonId: `botstat`, buttonText: { displayText: '✓ INFO BOT' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: gambar, contextInfo: {mentionedJid: [sender,far]}}}, 'buttonsMessage')
+farid.sendMessage(from, { contentText: `${menu}`, footerText: '© Pikaw-Bot', buttons: [{ buttonId: `!command`, buttonText: { displayText: 'LIST MENU' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: 'OWNER' }, type: 1 },{ buttonId: `!botstat`, buttonText: { displayText: '✓ INFO BOT' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: gambar, contextInfo: {mentionedJid: [sender,far]}}}, 'buttonsMessage')
               break
 
 case 'allmenu':
